@@ -113,7 +113,7 @@ class DataProcessing:
         else:
             return self.__UserAndRepo[username][reponame].get(event,0)
 
-
+#代码分析
 class GHAnalysis:
     def __init__(self):
         self.initArgparse()#初始化Arg

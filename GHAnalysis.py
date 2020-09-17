@@ -1,6 +1,7 @@
 import json
 import os
 import argparse
+#类
 class DataProcessing:
     def __init__(self,FirstTime: bool , Address: str = None ):
         if(FirstTime):#第一次执行初始化

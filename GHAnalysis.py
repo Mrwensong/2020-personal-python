@@ -73,7 +73,7 @@ class DataProcessing:
         self.__UserAndRepo[jsondata["actor"]["login"]][jsondata["repo"]["name"]][jsondata['type']] += 1
 
 
-
+#json学习
     def loadData(self) -> bool:
         #读取预制文件
         if  not os.path.exists('user.json') and not os.path.exists(

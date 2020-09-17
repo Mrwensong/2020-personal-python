@@ -151,6 +151,6 @@ class GHAnalysis:
             else:
                 raise RuntimeError('error: argument -e is required')
         return result
-
+#类似main函数
 if __name__ == '__main__':
     GHAnalysis()
